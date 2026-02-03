@@ -1,4 +1,4 @@
-Name: STATS PERM
+Name: STATS_PERM
 Display-Name: Permutation Tests
 Dialog-Specs: dialog398.cfe
 Command-Specs: STATS_PERM.XML
