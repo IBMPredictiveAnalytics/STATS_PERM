@@ -1,0 +1,185 @@
+# /***********************************************************************
+# * Licensed Materials - Property of IBM
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2026
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp.
+# ************************************************************************/
+msgid ""
+msgstr ""
+"Project-Id-Version: STATS_PERM 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-27 13:56+0530\n"
+"PO-Revision-Date: 2026-01-27 13:56+0530\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: ja <ja@example.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: STATS_PERM.R:65
+msgid "End of procedure"
+msgstr "手順の終わり"
+
+#: STATS_PERM.R:95
+msgid "Message Number"
+msgstr "メッセージ番号"
+
+#: STATS_PERM.R:130
+#, c-format
+msgid "Invalid variable name: %s"
+msgstr "無効な変数名です: %s"
+
+#: STATS_PERM.R:137 STATS_PERM.R:159 STATS_PERM.R:266 STATS_PERM.R:386
+msgid "Perm"
+msgstr "Perm"
+
+#: STATS_PERM.R:138
+msgid "Perm Notes and Warnings"
+msgstr "Permの注意事項と警告"
+
+#: STATS_PERM.R:161
+msgid "This procedure requires SPSS to be in Unicode mode"
+msgstr "この手順では、SPSSがUnicodeモードである必要があります"
+
+#: STATS_PERM.R:164
+msgid "No independent variables were specified"
+msgstr "独立変数が指定されていません"
+
+#: STATS_PERM.R:168
+msgid "An id variable must be specified if saving new variables"
+msgstr "新規変数を保存する場合は、ID変数を指定する必要があります。"
+
+#: STATS_PERM.R:172
+msgid "Case weights are ignored by this procedure"
+msgstr "この手順では、ケース・ウェイトは無視されます。"
+
+#: STATS_PERM.R:179
+msgid ""
+"An ID variable must be specified if predictions or residuals are requested"
+msgstr "予測値または残差が要求される場合は、ID変数を指定する必要があります。"
+
+#: STATS_PERM.R:190
+msgid "Residual or prediction variable name already exists in active dataset"
+msgstr "残差または予測値の変数名が、アクティブなデータ・セット内にすでに存在しています。"
+
+#: STATS_PERM.R:194
+msgid ""
+"The input dataset must have a name if creating new variables.  Please assign"
+" one and rerun the procedure."
+msgstr "新規変数を作成する場合、入力データ・セットには名前が必要です。  名前を割り当ててから、手順を再実行してください。"
+
+#: STATS_PERM.R:200
+msgid "Split files is not supported by this procedure"
+msgstr "この手順では、ファイルの分割はサポートされていません"
+
+#: STATS_PERM.R:204
+msgid "The dependent variable appears in the independent variable list"
+msgstr "従属変数が独立変数リストに含まれています"
+
+#: STATS_PERM.R:216
+#, c-format
+msgid "%s is not a valid R variable name.  Please rename it"
+msgstr "%sは有効なR変数名ではありません。  名前を変えてください"
+
+#: STATS_PERM.R:234
+msgid "error fetching data"
+msgstr "データの取得時にエラーが発生しました"
+
+#: STATS_PERM.R:241
+msgid "There are no complete cases in the data"
+msgstr "データに完全なケースは含まれていません"
+
+#: STATS_PERM.R:246
+msgid "Interaction terms must specify at least two values"
+msgstr "交互作用項には少なくとも2つの値を指定する必要があります"
+
+#: STATS_PERM.R:252 STATS_PERM.R:253
+msgid "error estimating equation"
+msgstr "推定式の計算中にエラーが発生しました"
+
+#: STATS_PERM.R:304
+msgid "An interaction list must have at least two variables"
+msgstr "交互作用リストには少なくとも2つの変数が含まれている必要があります"
+
+#: STATS_PERM.R:320
+msgid "Estimate"
+msgstr "推定"
+
+#: STATS_PERM.R:320
+msgid "Std. Error"
+msgstr "標準偏差。 エラー"
+
+#: STATS_PERM.R:320
+msgid "t Value"
+msgstr "t値"
+
+#: STATS_PERM.R:320
+msgid "Parametric Pr(>|t|)"
+msgstr "パラメトリックPr(>|t|)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(>|t|)"
+msgstr "再抽出後Pr(>|t|)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(<t)"
+msgstr "再抽出後Pr(<t)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(>t)"
+msgstr "再抽出後Pr(>t)"
+
+#: STATS_PERM.R:332
+msgid "Levels"
+msgstr "レベル"
+
+#: STATS_PERM.R:336 STATS_PERM.R:337
+msgid "Categorical Variable Levels"
+msgstr "カテゴリー変数のラベル"
+
+#: STATS_PERM.R:339
+#, c-format
+msgid "Contrasts: %s"
+msgstr "対比: %s"
+
+#: STATS_PERM.R:343
+#, c-format
+msgid "Results computed by permuco version %s"
+msgstr "permucoバージョン%sによって計算された結果"
+
+#: STATS_PERM.R:351
+msgid "Marginal Coefficient t Tests"
+msgstr "周辺係数のt検定"
+
+#: STATS_PERM.R:352
+msgid "Permutation Tests"
+msgstr "順列検定"
+
+#: STATS_PERM.R:354
+#, c-format
+msgid ""
+"Dependent variable: %s\n"
+"Number of Permutations: %s\n"
+"Permutation Method: %s\n"
+"R-Squared: %s\n"
+"%s"
+msgstr ""
+"従属変数: %s\n"
+"順列数: %s\n"
+"順列メソッド: %s\n"
+"R-2乗: %s\n"
+"%s"
+
+#: STATS_PERM.R:364
+msgid "The same name was given for residuals and predicted values"
+msgstr "残差値と予測値に同じ名前が付けられています"
+
+#: STATS_PERM.R:369
+msgid "The residual or prediction variable already exists."
+msgstr "残差変数または予測変数はすでに存在しています。"

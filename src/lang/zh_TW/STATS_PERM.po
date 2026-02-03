@@ -1,0 +1,185 @@
+# /***********************************************************************
+# * Licensed Materials - Property of IBM
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2026
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp.
+# ************************************************************************/
+msgid ""
+msgstr ""
+"Project-Id-Version: STATS_PERM 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-27 13:56+0530\n"
+"PO-Revision-Date: 2026-01-27 13:56+0530\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: zh_TW <zh_TW@example.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: STATS_PERM.R:65
+msgid "End of procedure"
+msgstr "程序的結尾"
+
+#: STATS_PERM.R:95
+msgid "Message Number"
+msgstr "訊息號碼"
+
+#: STATS_PERM.R:130
+#, c-format
+msgid "Invalid variable name: %s"
+msgstr "變數名稱無效：%s"
+
+#: STATS_PERM.R:137 STATS_PERM.R:159 STATS_PERM.R:266 STATS_PERM.R:386
+msgid "Perm"
+msgstr "永久性"
+
+#: STATS_PERM.R:138
+msgid "Perm Notes and Warnings"
+msgstr "永久性備註與警告"
+
+#: STATS_PERM.R:161
+msgid "This procedure requires SPSS to be in Unicode mode"
+msgstr "此程序需要 SPSS 處於 Unicode 模式"
+
+#: STATS_PERM.R:164
+msgid "No independent variables were specified"
+msgstr "未指定任何自變數"
+
+#: STATS_PERM.R:168
+msgid "An id variable must be specified if saving new variables"
+msgstr "若要儲存新變數，必須指定 id 變數"
+
+#: STATS_PERM.R:172
+msgid "Case weights are ignored by this procedure"
+msgstr "此程序會忽略案例權重"
+
+#: STATS_PERM.R:179
+msgid ""
+"An ID variable must be specified if predictions or residuals are requested"
+msgstr "若要求預測值或殘差，則必須指定一個 ID 變數"
+
+#: STATS_PERM.R:190
+msgid "Residual or prediction variable name already exists in active dataset"
+msgstr "殘差或預測變數名稱已存在於作用中的資料集中"
+
+#: STATS_PERM.R:194
+msgid ""
+"The input dataset must have a name if creating new variables.  Please assign"
+" one and rerun the procedure."
+msgstr "若要建立新變數，輸入資料集必須具有名稱。  請指派一個，並重新執行程序。"
+
+#: STATS_PERM.R:200
+msgid "Split files is not supported by this procedure"
+msgstr "本程序不支援分割檔案"
+
+#: STATS_PERM.R:204
+msgid "The dependent variable appears in the independent variable list"
+msgstr "依變數出現在自變數清單中"
+
+#: STATS_PERM.R:216
+#, c-format
+msgid "%s is not a valid R variable name.  Please rename it"
+msgstr "%s 不是有效的 R 變數名稱。  請將其重新命名"
+
+#: STATS_PERM.R:234
+msgid "error fetching data"
+msgstr "提取資料時發生錯誤"
+
+#: STATS_PERM.R:241
+msgid "There are no complete cases in the data"
+msgstr "資料中沒有完整的案例"
+
+#: STATS_PERM.R:246
+msgid "Interaction terms must specify at least two values"
+msgstr "互動項目必須至少指定兩個值"
+
+#: STATS_PERM.R:252 STATS_PERM.R:253
+msgid "error estimating equation"
+msgstr "預估方程式時發生錯誤"
+
+#: STATS_PERM.R:304
+msgid "An interaction list must have at least two variables"
+msgstr "互動清單必須至少包含兩個變數"
+
+#: STATS_PERM.R:320
+msgid "Estimate"
+msgstr "預估"
+
+#: STATS_PERM.R:320
+msgid "Std. Error"
+msgstr "標準 錯誤"
+
+#: STATS_PERM.R:320
+msgid "t Value"
+msgstr "t 值"
+
+#: STATS_PERM.R:320
+msgid "Parametric Pr(>|t|)"
+msgstr "參數式 Pr(>|t|)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(>|t|)"
+msgstr "重新採樣後的 Pr(>|t|)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(<t)"
+msgstr "重新抽樣後的 Pr(<t)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(>t)"
+msgstr "重新抽樣後的 Pr(>t)"
+
+#: STATS_PERM.R:332
+msgid "Levels"
+msgstr "層次"
+
+#: STATS_PERM.R:336 STATS_PERM.R:337
+msgid "Categorical Variable Levels"
+msgstr "類別變數層次"
+
+#: STATS_PERM.R:339
+#, c-format
+msgid "Contrasts: %s"
+msgstr "對比：%s"
+
+#: STATS_PERM.R:343
+#, c-format
+msgid "Results computed by permuco version %s"
+msgstr "由 permuco 版本 %s 計算的結果"
+
+#: STATS_PERM.R:351
+msgid "Marginal Coefficient t Tests"
+msgstr "邊際係數 t 檢定"
+
+#: STATS_PERM.R:352
+msgid "Permutation Tests"
+msgstr "排列檢定"
+
+#: STATS_PERM.R:354
+#, c-format
+msgid ""
+"Dependent variable: %s\n"
+"Number of Permutations: %s\n"
+"Permutation Method: %s\n"
+"R-Squared: %s\n"
+"%s"
+msgstr ""
+"因變數：%s\n"
+"排列次數：%s\n"
+"排列方法：%s\n"
+"R 平方值：%s\n"
+"%s"
+
+#: STATS_PERM.R:364
+msgid "The same name was given for residuals and predicted values"
+msgstr "殘差與預測值使用了相同的名稱"
+
+#: STATS_PERM.R:369
+msgid "The residual or prediction variable already exists."
+msgstr "殘差或預測變數已經存在。"

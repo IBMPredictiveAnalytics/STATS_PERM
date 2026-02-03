@@ -1,0 +1,18 @@
+Name: STATS PERM
+Display-Name: Permutation Tests
+Dialog-Specs: dialog398.cfe
+Command-Specs: STATS_PERM.XML
+Code-Files: STATS_PERM.R
+Misc-Files: extsyntax.css,LICENSE,stats_perm.htm,markdown.html
+Summary: Compute permutation tests for simple t test, anova, and regre
+ ssion
+Description: This procedure provides permutation significance tests fo
+ r two group t ststistics, anova, and regresswion models.
+Author: Jon K. Peck
+Version: 1.0.0
+Product-Version: 28
+Date: 12/17/2025
+Categories: permutation t-test anova regresion
+Plugins: R
+R-Packages: permuco
+Translation-Catalogues: lang
