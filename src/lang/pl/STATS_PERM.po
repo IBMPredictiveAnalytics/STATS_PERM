@@ -1,0 +1,191 @@
+# /***********************************************************************
+# * Licensed Materials - Property of IBM
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2026
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp.
+# ************************************************************************/
+msgid ""
+msgstr ""
+"Project-Id-Version: STATS_PERM 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-27 13:56+0530\n"
+"PO-Revision-Date: 2026-01-27 13:56+0530\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: pl <pl@example.com>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: STATS_PERM.R:65
+msgid "End of procedure"
+msgstr "Koniec procedury"
+
+#: STATS_PERM.R:95
+msgid "Message Number"
+msgstr "Numer komunikatu"
+
+#: STATS_PERM.R:130
+#, c-format
+msgid "Invalid variable name: %s"
+msgstr "Niepoprawna nazwa zmiennej: %s"
+
+#: STATS_PERM.R:137 STATS_PERM.R:159 STATS_PERM.R:266 STATS_PERM.R:386
+msgid "Perm"
+msgstr "Permutacja"
+
+#: STATS_PERM.R:138
+msgid "Perm Notes and Warnings"
+msgstr "Uwagi i ostrzeżenia dotyczące permutacji"
+
+#: STATS_PERM.R:161
+msgid "This procedure requires SPSS to be in Unicode mode"
+msgstr "Ta procedura wymaga SPSS w trybie Unicode"
+
+#: STATS_PERM.R:164
+msgid "No independent variables were specified"
+msgstr "Nie określono żadnych zmiennych niezależnych"
+
+#: STATS_PERM.R:168
+msgid "An id variable must be specified if saving new variables"
+msgstr "W przypadku zapisywania nowych zmiennych należy określić zmienną ID"
+
+#: STATS_PERM.R:172
+msgid "Case weights are ignored by this procedure"
+msgstr "Ta procedura ignoruje wagi przypadków"
+
+#: STATS_PERM.R:179
+msgid ""
+"An ID variable must be specified if predictions or residuals are requested"
+msgstr ""
+"Zmienna ID musi zostać określona, jeśli wymagane są prognozy lub reszty"
+
+#: STATS_PERM.R:190
+msgid "Residual or prediction variable name already exists in active dataset"
+msgstr ""
+"Nazwa zmiennej resztowej lub predykcyjnej już istnieje w aktywnym zestawie "
+"danych"
+
+#: STATS_PERM.R:194
+msgid ""
+"The input dataset must have a name if creating new variables.  Please assign"
+" one and rerun the procedure."
+msgstr ""
+"Zbiór danych wejściowych musi mieć nazwę, jeśli tworzone są nowe zmienne.  "
+"Przypisz ją i uruchom procedurę ponownie."
+
+#: STATS_PERM.R:200
+msgid "Split files is not supported by this procedure"
+msgstr "Ta procedura nie obsługuje dzielenia plików"
+
+#: STATS_PERM.R:204
+msgid "The dependent variable appears in the independent variable list"
+msgstr "Zmienna zależna pojawia się na liście zmiennych niezależnych"
+
+#: STATS_PERM.R:216
+#, c-format
+msgid "%s is not a valid R variable name.  Please rename it"
+msgstr "%s nie jest poprawną nazwą zmiennej R.  Zmień nazwę"
+
+#: STATS_PERM.R:234
+msgid "error fetching data"
+msgstr "błąd pobierania danych"
+
+#: STATS_PERM.R:241
+msgid "There are no complete cases in the data"
+msgstr "W danych nie ma kompletnych przypadków"
+
+#: STATS_PERM.R:246
+msgid "Interaction terms must specify at least two values"
+msgstr "Warunki interakcji muszą określać co najmniej dwie wartości"
+
+#: STATS_PERM.R:252 STATS_PERM.R:253
+msgid "error estimating equation"
+msgstr "równanie szacowania błędu"
+
+#: STATS_PERM.R:304
+msgid "An interaction list must have at least two variables"
+msgstr "Lista interakcji musi zawierać co najmniej dwie zmienne"
+
+#: STATS_PERM.R:320
+msgid "Estimate"
+msgstr "Oszacowanie"
+
+#: STATS_PERM.R:320
+msgid "Std. Error"
+msgstr "Stand. Błąd"
+
+#: STATS_PERM.R:320
+msgid "t Value"
+msgstr "wartość t"
+
+#: STATS_PERM.R:320
+msgid "Parametric Pr(>|t|)"
+msgstr "Parametryczne Pr(>|t|)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(>|t|)"
+msgstr "Przepróbkowane Pr(>|t|)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(<t)"
+msgstr "Przepróbkowane Pr(<t)"
+
+#: STATS_PERM.R:321
+msgid "Resampled Pr(>t)"
+msgstr "Przepróbkowane Pr(>t)"
+
+#: STATS_PERM.R:332
+msgid "Levels"
+msgstr "Poziomy"
+
+#: STATS_PERM.R:336 STATS_PERM.R:337
+msgid "Categorical Variable Levels"
+msgstr "Poziomy zmiennych kategorycznych"
+
+#: STATS_PERM.R:339
+#, c-format
+msgid "Contrasts: %s"
+msgstr "Kontrasty: %s"
+
+#: STATS_PERM.R:343
+#, c-format
+msgid "Results computed by permuco version %s"
+msgstr "Wyniki obliczone przez permuco w wersji %s"
+
+#: STATS_PERM.R:351
+msgid "Marginal Coefficient t Tests"
+msgstr "Testy t współczynnika brzegowego"
+
+#: STATS_PERM.R:352
+msgid "Permutation Tests"
+msgstr "Testy permutacyjne"
+
+#: STATS_PERM.R:354
+#, c-format
+msgid ""
+"Dependent variable: %s\n"
+"Number of Permutations: %s\n"
+"Permutation Method: %s\n"
+"R-Squared: %s\n"
+"%s"
+msgstr ""
+"Zmienna zależna: %s\n"
+"Liczba permutacji: %s\n"
+"Metoda permutacji: %s\n"
+"R-kwadrat: %s\n"
+"%s"
+
+#: STATS_PERM.R:364
+msgid "The same name was given for residuals and predicted values"
+msgstr ""
+"Ta sama nazwa została przypisana resztom oraz wartościom przewidywanym"
+
+#: STATS_PERM.R:369
+msgid "The residual or prediction variable already exists."
+msgstr "Zmienna resztowa lub zmienna predykcyjna już istnieje."
