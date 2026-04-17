@@ -7,7 +7,7 @@ Misc-Files: extsyntax.css,LICENSE,stats_perm.htm,markdown.html
 Summary: Compute permutation tests for simple t test, anova, and regre
  ssion
 Description: This procedure provides permutation significance tests fo
- r two group t ststistics, anova, and regresswion models.
+ r two group t test, anova, and regression models.
 Author: Jon K. Peck
 Version: 1.0.0
 Product-Version: 28
